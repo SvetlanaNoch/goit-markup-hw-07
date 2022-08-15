@@ -1,0 +1,28 @@
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: #2f303a;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/hero/bg.jpg");
+    background-size: cover;
+    background-color: #c4c4c4;
+  }
+  
+  .hero-titlie {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+    align-items: center;
+    margin-left: 252px;
+    margin-right: 252px;
+    margin-bottom: 30px;
+  }
+  

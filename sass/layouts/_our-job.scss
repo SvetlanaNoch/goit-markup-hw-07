@@ -1,0 +1,40 @@
+.our-job {
+    padding-bottom: 94px;
+    justify-content: space-between;
+  }
+  
+  
+  .our-job-list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .our-job-photo {
+    margin-right: 30px;
+    position: relative;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  .our-job-box-text {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    bottom: 0;
+  }
+
+  .our-job-text {
+    @include font(700, 14px, 16.41px);
+    font-family: "Roboto";
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    color: #ffffff;
+    width: 100%;
+  }
+  
